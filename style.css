@@ -2,8 +2,8 @@
 
 :root {
     --dark-blue: #363F5F;
-    --default-green: #49aa26;
-    --light-green: #3dd705;
+    --default-color: #9E7D41;
+    --light-color: #EBC278;
     --color-red: #e92929;
     --radius: 0.25rem;
 }
@@ -58,12 +58,12 @@ h2 {
 /* ####### LINKS AND BUTTONS ####### */
 
 a {
-    color: var(--default-green);
+    color: var(--default-color);
     text-decoration: none;
 }
 
 a:hover {
-    color: var(--light-green);
+    color: var(--light-color);
 }
 
 button {
@@ -72,13 +72,13 @@ button {
     border: none;
     color: white;
     padding: 0;
-    background-color: var(--default-green);
+    background-color: var(--default-color);
     border-radius: var(--radius);
     cursor: pointer;
 }
 
 button:hover {
-    background: var(--light-green);
+    background: var(--light-color);
 }
 
 .button.new {
@@ -105,7 +105,7 @@ button:hover {
 /* ####### HEADER ####### */
 
 header {
-    background: #2D4A22;
+    background: #78ABEB;
     padding: 2rem 0 10rem;
     text-align: center;
 }
@@ -152,7 +152,7 @@ header h1 {
 }
 
 .card.total {
-    background: var(--default-green);
+    background: var(--default-color);
     color: white
 }
 
